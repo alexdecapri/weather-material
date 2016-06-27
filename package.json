@@ -1,0 +1,19 @@
+{
+  "name": "weather-material",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdecapri/weather-material.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexdecapri/weather-material/issues"
+  },
+  "homepage": "https://github.com/alexdecapri/weather-material#readme"
+}
