@@ -1,3 +1,10 @@
 <div ng-controller="homeCtrl">
-  <h1>Home</h1>
+  <div class="inset" ng-cloak>
+    <md-switch ng-model="data.cb1" aria-label="Switch 1">
+      Switch 1: {{ data.cb1 }}
+    </md-switch>
+    <md-switch ng-model="data.cb2" aria-label="Switch 2" ng-true-value="'yup'" ng-false-value="'nope'" class="md-warn">
+      Switch 2 (md-warn): {{ data.cb2 }}
+    </md-switch>
+  </div>
 </div>
