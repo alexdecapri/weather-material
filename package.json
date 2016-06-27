@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/alexdecapri/weather-material/issues"
   },
-  "homepage": "https://github.com/alexdecapri/weather-material#readme"
+  "homepage": "https://github.com/alexdecapri/weather-material#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "angular-material": "^1.1.0-rc.5"
+  }
 }
