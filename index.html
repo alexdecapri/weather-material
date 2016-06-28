@@ -17,12 +17,12 @@
       </md-nav-bar>
     </md-content> -->
 
-    <md-toolbar >
+    <md-toolbar>
       <h2>What's my Weather?</h2>
     </md-toolbar>
 
     <div layout="row" flex>
-      <md-sidenav-left class="md-whiteframe-z4" md-is-locked-open="true">
+      <md-sidenav-left layout="column" class="md-whiteframe-z4" md-is-locked-open="$mdMedia('gt-sm')">
         <md-list>
           <md-list-item>
             <md-button>Home</md-button>
@@ -35,7 +35,7 @@
           </md-list-item>
         </md-list>
       </md-sidenav-left>
-      <md-content>
+      <md-content flex>
         <ui-view></ui-view>
       </md-content>
     </div>
