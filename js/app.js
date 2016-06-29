@@ -24,6 +24,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
 });
 
+app.config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('default')
+    .primaryPalette('cyan')
+    .accentPalette('lime');
+})
+
 // app.config(function ($mdThemingProvider) {
 //     var customPrimary = {
 //         '50': '#6094ee',
