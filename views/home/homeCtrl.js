@@ -1,5 +1,6 @@
 var app = angular.module('weatherMaterial');
 
-app.controller('homeCtrl', function($scope, $mdSidenav) {
+app.controller('homeCtrl', function($scope, $mdSidenav, locationService) {
+
 
 });

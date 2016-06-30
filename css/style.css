@@ -2,10 +2,10 @@ md-slider {
   width: 30px; }
 
 md-sidenav {
-  width: 180px; }
+  width: 140px; }
 
-md-list-item button {
-  margin: 0 auto; }
+md-list-item {
+  text-align: center; }
 
 md-content {
   margin-left: 20px; }
